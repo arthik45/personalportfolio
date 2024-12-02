@@ -775,6 +775,11 @@ section.active{
     .contact-box .field-box{
         grid-template-columns: repeat(2, 1fr);
     }
+    .contact-container{
+        display: inline-block;
+        overflow: hidden;
+        position: sticky;
+    }
     
 }
 @media screen and (max-width:450px) {
